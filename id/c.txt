@@ -1,0 +1,2 @@
+/charlie-brown/light-tech: 0x830d15
+/charlie-brown/pig-pen: 0x0f9c0c
