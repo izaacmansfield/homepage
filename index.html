@@ -46,6 +46,46 @@
 		<![endif]-->
 	</head>
 	<body>
+		<header>
+			<nav class="navbar navbar-default bootsnav nav-top-scroll bg-transparent nav-box-width white-link padding-four-lr menu-logo-center on no-full">
+				<div class="container nav-header-container">
+					<div class="row">
+						<div class="center-logo">
+							<a href="https://basisahwatukee.theater" title="Logo" class="logo">
+								<img src="https://basisahwatkee.theater/brand/logo.png" data-at2x="https://basisahwatukee.theater/brand/logo@2x.png" class="logo-dark" alt="Logo">
+								<img src="https://basisahwatukee.theater/brand/logo-white.png" data-at2x="https://basisahwatukee.theater/brand/logo-white@2x.png" alt="Logo" class="logo-light default">
+							</a>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 accordion-menu">
+							<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+								<span class="sr-only">toggle navigation</span>
+								<span class="icon-bar"></span><span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="navbar-collapse collapse no-padding-right" id="navbar-collapse-toggle-1">
+								<ul class="nav navbar-nav navbar-left text-right no-margin alt-font text-normal width-40 sm-width-100 sm-text-left" data-in="fadeIn" data-out="fadeOut">
+									<li><a href="https://basisahwatukee.theater">Home</a></li>
+									<li><a href="https://shop.basisahwatukee.theater">Shop</a></li>
+									<li class=""><a href="https://blog.basisahwatukee.theater">Blog</a></li>
+								</ul>
+								<ul class="nav navbar-nav navbar-right no-margin alt-font text-normal width-40 sm-width-100" data-in="fadeIn" data-out="fadeOut">
+									<li class="dropdown simple-dropdown"><a href="javascript:void(0);" title="Shows">Shows</a>
+										<ul class="dropdown-menu animated fadeOut" role="menu" style="top: 75px; display: none; opacity: 1;">
+											<li><a href="https://basisahwatukee.theater/play-2019/" class="">2019 Play</a></li>
+											<li><a href="https://basisahwatukee.theater/its-2018/" class="">ITS 2018</a></li>
+											<li><a href="https://basisahwatukee.theater/charlie-brown/" class="">Charle Brown</a></li>
+											<li><a href="https://basisahwatukee.theater/its-2017/" class="">ITS 2017</a></li>
+										</ul>
+									</li>
+									<li><a href="https://basisahwatukee.theater/about">About</a></li>
+									<li><a href="mailto:contact@basisahwatukee.theater">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<!--Title Section-->
 		<section class="no-padding one-third-screen position-relative wow fadeIn">
 			<div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
@@ -59,30 +99,11 @@
 					<div class="down-section text-center"><a href="#down-section" class="inner-link"><i class="ti-arrow-down icon-medium text-white padding-15px-all xs-padding-10px-all"></i></a></div>
 				</div>
 			</div>
-			<div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100">
-				<div class="swiper-wrapper">
-					<script>
-						var numbers = new Array('0','1','2','4','5','6','7','8','9','a','b','c','d','e','f');
-						for loop
-							$('div.food a').addClass('className');
-						end
-					</script>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-0.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-1.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-2.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-3.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-4.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-5.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-6.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-7.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-8.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-9.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-a.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-b.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-c.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-d.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-e.jpeg');"></div>
-					<div class="swiper-slide cover-background one-third-screen" style="background-image:url('background/stock-f.jpeg');"></div>
+			<div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100" id="slider-content">
+				<script>
+					
+				</script>
+				<div class="swiper-wrapper" id="slider-wrapper">
 				</div>
 			</div>
 		</section>
@@ -264,6 +285,21 @@
 		<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
 		<!-- setting -->
 		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/header/transparent.js"></script>
+		<footer class="footer-strip padding-25px-tb xs-padding-30px-tb">
+			<div class="container">
+				<div class="row equalize xs-equalize-auto">
+					<div class="col-md-3 col-sm-3 col-xs-12 display-table sm-text-center no-margin-bottom">
+						<div class="display-table-cell vertical-align-middle">
+							<a href="https://basisahwatukee.theater">
+								<img class="footer-logo" src="https://basisahwatukee.theater/brand/logo.png" data-at2x="https://basisahwatukee.theater/brand/logo@2x.png" alt="Logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12 text-center text-small alt-font display-table xs-margin-10px-bottom sm-text-center" style="height: 38px;">
+						<div class="display-table-cell vertical-align-middle">© 2018 BASIS Ahwatukee Theater. &nbsp;&nbsp; <a href = "https://basisahwatukee.theater/terms">Terms</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href = "https://basisahwatukee.theater/privacy">Privacy</a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
